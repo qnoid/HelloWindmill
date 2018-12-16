@@ -10,7 +10,7 @@ import XCTest
 
 class Integration: XCTestCase {
     
-    func testFail() {
-        
+    func testFailure() {
+        XCTFail("A test has failed")
     }
 }
